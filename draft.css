@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #faf3dd;
+    text-align: center;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 60em;
+    /* margin: 0 auto; */
+    margin: 6rem 4rem 4rem 4rem;
+    margin-top: 6em;
+    /* overflow: hidden; */
+}
+
+.HiddenSB{
+    overflow: hidden;
+}
+
+
+textarea{
+    border: none;
+    resize: none;
+    height: 38rem;
+    background-color: #faf3dd;
+    font-size: 1.4rem;
+    color: #0e103d;
+    /* padding-right: 2em; */
+    /* box-sizing: border-box; */
+}
+
+.hideScrollbar{
+    width: 100%;
+    /* height: 100%; */
+    overflow: auto;
+    margin-right: 1em;
+    padding-right: 2em;
+}
